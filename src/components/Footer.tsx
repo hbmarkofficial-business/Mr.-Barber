@@ -25,7 +25,6 @@ export const Footer = () => {
             <p className="text-muted-foreground text-sm leading-relaxed">
               Premium Barbershop für den modernen Gentleman.
               Seit Jahren die Adresse für Tradition und zeitgemäßen Stil.
-          
             </p>
             <div className="flex gap-4">
               <a 
@@ -83,13 +82,12 @@ export const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex justify-between text-muted-foreground">
                 <span>Montag - Freitag</span>
-                <span className="text-foreground"9:00 - 19:00</span>
+                <span className="text-foreground">9:00 - 19:00</span>
               </li>
-            <li className="flex justify-between text-muted-foreground">
+              <li className="flex justify-between text-muted-foreground">
                 <span>Samstag</span>
                 <span className="text-foreground">9:00 - 19:30 </span>
               </li>
-               
               <li className="flex justify-between text-muted-foreground">
                 <span>Sonntag</span>
                 <span className="text-foreground">Geschlossen</span>
@@ -106,7 +104,7 @@ export const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                 <span className="text-muted-foreground text-sm">
-                 Hermannstraße 147<br />
+                  Hermannstraße 147<br />
                   12051 Berlin, Deutschland
                 </span>
               </li>
@@ -116,7 +114,7 @@ export const Footer = () => {
                   href="tel:01634884221" 
                   className="text-muted-foreground hover:text-primary transition-colors text-sm"
                 >
-                01634884221
+                  01634884221
                 </a>
               </li>
               <li className="flex items-center gap-3">
